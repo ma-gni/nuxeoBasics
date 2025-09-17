@@ -1,6 +1,5 @@
 # Tomcat Dispatching V2 — Classic Servlet vs JAX‑RS (Step‑by‑Step, With Nuxeo Context)
 
-> **Why this V2?** You already nailed the big picture. This version goes deeper and **shows both approaches side‑by‑side** — how Tomcat routes, how each stack handles the request, what code you write, when to choose which, and how this maps to **Nuxeo**.
 
 ---
 
