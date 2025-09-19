@@ -1,6 +1,5 @@
 # Nuxeo Super-Guide — From Concepts to Hands‑On (MD)
 
-> **Author:** ChatGPT (for Ilias)  
 > **Scope:** Everything we covered so far: Tomcat/Servlets, Nuxeo runtime & OSGi, Content Model (schemas, facets, doc types, vocabularies), Layouts, NXQL, Lifecycles, Tabs, development workflow (Studio, dev mode, hot reload), architecture (blobs, metadata, audit, indexes, directories, stream), and common troubleshooting.
 
 ---
