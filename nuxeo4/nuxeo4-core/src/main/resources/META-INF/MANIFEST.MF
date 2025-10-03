@@ -1,0 +1,11 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: com.ilias
+Bundle-Version: 1.0.0
+Bundle-Name: nuxeo4-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.ilias.nuxeo4-core;singleton=true
+Nuxeo-Component: OSGI-INF/prefixtitleoperation-operation-contrib.xml,
+ OSGI-INF/submitforapprovaloperation-operation-contrib.xml,
+ OSGI-INF/autodefaultlistener-listener-contrib.xml

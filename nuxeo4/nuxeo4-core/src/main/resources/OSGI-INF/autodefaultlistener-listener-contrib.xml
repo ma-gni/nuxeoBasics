@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<component name="com.ilias.listeners.listener.autodefaultlistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener async="true" postCommit="true" name="autodefaultlistener"
+      class="com.ilias.listeners.AutoDefaultListener">
+        <event>emptyDocumentModelCreated</event>
+        <event>aboutToCreate</event>
+        <event>documentCreated</event>
+        <event>beforeDocumentModification</event>
+        <event>documentModified</event>
+        <event>aboutToRemove</event>
+        <event>documentRemoved</event>
+        <event>aboutToCopy</event>
+        <event>documentCreatedByCopy</event>
+        <event>aboutToMove</event>
+        <event>documentMoved</event>
+        <event>documentLocked</event>
+        <event>documentUnlocked</event>
+        <event>aboutToRemoveVersion</event>
+        <event>versionRemoved</event>
+        <event>aboutToRemoveVersion</event>
+        <event>aboutToRemoveVersion</event>
+        <event>versionremoved</event>
+    </listener>
+  </extension>
+
+</component>
